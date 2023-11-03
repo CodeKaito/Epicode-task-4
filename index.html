@@ -7,39 +7,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png" type="image/x-icon" color="#171717">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://s.pinimg.com/webapp/favicon-22eb868c.png">
     <link rel="stylesheet" href="style.css">
-    <title>Medium Clone</title>
+    <title>Medium</title>
 </head>
 <body>
-    <main>
-        <div class="banner">
-            <div class="container">
-                <div class="navbar">
+    <div class="container">
+        <div class="navbar" style="transform: translateY(0px);">
+                <div class="navbar-leftside">
                     <div class="logo-container">
-                        <img src="" alt="medium-logo" class="logo">
+                        <img src="https://github.com/CodeKaito/Epicode-task-4/blob/main/assets/medium-logo.png?raw=true" alt="medium-logo" class="logo">
                     </div>
-
-                    <div class="navbar-rightside">
-                        <div class="our-story">
-                            <p>Our Story</p>
-                        </div>
-                        <div class="membership">
-                            <p>Membership</p>
-                        </div>
-                        <div class="our-story">
-                            <p>Write</p>
-                        </div>
-                        <div class="our-story">
-                            <p>Sign In</p>
-                        </div>
-
-                        <div class="get-started-container">
-                            <button type="button">Get started</button>
-                        </div>
+                    <div class="search-container">
+                        <i class="fa-solid fa-magnifying-glass magnifying-glass"></i>
+                        <input type="text" placeholder="Search">
                     </div>
                 </div>
-            </div>
+                    
+                <div class="navbar-rightside">
+                    <div class="write-container">
+                        <i class="fa-regular fa-pen-to-square pen"></i>
+                        <p class="pen-paragraph">Write</p>
+                    </div>
+                    <div class="bell-container">
+                        <i class="fa-regular fa-bell bell"></i>
+                    </div>
+                    <div class="user-container">
+                        <img src="https://miro.medium.com/v2/resize:fill:64:64/0*PpD4mtEoU_s7mxzn" alt="user-logo" class="user-logo">
+                    </div>
+                </div>
         </div>
-    </main>
+
+        <div class="homepage-container">
+            <div class="homepage">
+                <main>
+                    <div class="space-topbar"></div>
+                    <div class="topbar-container" >
+                        <div class="topbar">
+                            <i class="fa-solid fa-plus"></i>
+                            <p id="selected-p">For you</p>
+                            <p>Following</p>
+                        </div>
+                    </div>
+                </main>
+
+                <div class="main-rightside">
+                    <div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
 </body>
 </html>
