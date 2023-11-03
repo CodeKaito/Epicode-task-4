@@ -14,14 +14,18 @@ body {
     font-weight: 600;
 }
 
+.navbar-bottomline {
+    border-bottom: 1px solid #F2F2F2;
+    box-shadow: 1px 3px 3px #e7e7e7;
+}
+
 .navbar {
+    
     height: 57px;
     display: flex;
+    padding: 0px 380px;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 24px;
-    margin: 0 24px;
-    border-bottom: 1px solid #F2F2F2;
 }
 
 .navbar-leftside {
@@ -29,32 +33,7 @@ body {
     align-items: center;
 }
 
-.search-container {
-    display: flex;
-    width: 240px;
-    height: 40px;
-    border-radius: 30px;
-    background-color: #F9F9F9;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-container > input {
-    margin-left: 20px;
-    border: none;
-    background-color: #F9F9F9;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-}
-
-.magnifying-glass {
-    font-size: 20px;
-}
-
 .logo-container {
-    width: 70px;
     height: 30px;
 }
 
@@ -70,31 +49,48 @@ textarea:focus, input:focus{
     justify-content: flex-end;
 }
 
-.write-container {
-    display: flex;
-    width: 120px;
+.magnifying-glass-container {
+    width: 50px;
     align-items: center;
     cursor: pointer;
 }
 
-.pen {
-    font-size: 25px;
+.fa-magnifying-glass {
+    font-size: 20px;
 }
 
-.pen-paragraph {
-    margin: 10px;
-    font-size: 15px;
+.bookmark-container-navbar {
+    width: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bookmark-navbar {
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .bell-container {
-    display: flex;
     margin-right: 32px;
     align-items: center;
 }
 
 .bell {
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
+}
+
+.button-navbar {
+    width: 170px;
+    height: 33px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #242424;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .user-logo {
@@ -138,7 +134,6 @@ main {
     background-color: rgba(255, 255, 255, 1);
     justify-content: center;
     margin: 0 24px;
-    
 }
 
 .topbar {
@@ -284,7 +279,7 @@ main {
     margin-right: 20px;
 }
 
-.fa-bookmark {
+.fa-bookmark-tag {
     font-size: 16px;
     color: #7F7F7F;
     cursor: pointer;
@@ -348,6 +343,7 @@ main {
 
 .medium-logo {
     height: 80%;
+    cursor: pointer;
 }
 
 .twitter-logo-container {
@@ -358,6 +354,7 @@ main {
 
 .twitter-logo {
     height: 80%;
+    cursor: pointer;
 }
 
 .title-twitter-container {
@@ -521,5 +518,5 @@ main {
 
 .footer > div {
     margin-left: 5px;
-    
+    cursor: pointer;
 }
