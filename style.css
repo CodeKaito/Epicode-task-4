@@ -56,6 +56,7 @@ textarea:focus, input:focus{
 
 .logo {
     height: 80%;
+    cursor: pointer;
 }
 
 .navbar-rightside {
@@ -69,6 +70,7 @@ textarea:focus, input:focus{
     display: flex;
     width: 120px;
     align-items: center;
+    cursor: pointer;
 }
 
 .pen {
@@ -88,6 +90,7 @@ textarea:focus, input:focus{
 
 .bell {
     font-size: 25px;
+    cursor: pointer;
 }
 
 .user-logo {
@@ -106,7 +109,6 @@ textarea:focus, input:focus{
     max-width: 1336px;
     margin: auto;
     display: block;
-    height: 1000vh;
 }
 
 .homepage {
@@ -118,7 +120,6 @@ textarea:focus, input:focus{
 main {
     min-width: 728px;
     max-width: 728px;
-    height: 100vh;
     flex: 1 1 auto;
 }
 
@@ -154,10 +155,12 @@ main {
     height: 100%;
     margin-left: 10px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 #selected-p {
     border-bottom: 1px solid rgb(36, 36, 36);
+    font-weight: 700;
 }
 
 .feed-container {
@@ -167,8 +170,8 @@ main {
 .article-container {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
     max-width: 680px;
-    height: 400px;
 }
 
 .author-container {
@@ -209,6 +212,8 @@ main {
 .article {
     display: flex;
     margin-top: 12px;
+    padding-top: 24px;
+    border-bottom: 1px solid #F2F2F2;
 }
 
 .feed-title-container {
@@ -243,11 +248,88 @@ main {
     object-fit: cover;
 }
 
+.tag-container {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    height: 30px;
+    width: 80px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.bookmark-container {
+    margin-right: 20px;
+}
+
+.fa-bookmark {
+    font-size: 16px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+
+.ellipsis-container {
+    margin-right: 0px;
+}
+
+.fa-ellipsis {
+    font-size: 16px;
+    color: #7F7F7F;
+    cursor: pointer;
+}
+
+.fa-ellipsis:hover {
+    font-weight: 800;
+    color: #040404;
+}
+
 .main-rightside {
     width: 368px;
-    height: 1000vh;
     min-width: 368px;
     border-left: 1px solid #F2F2F2;
     padding-right: 24px;
 }
 
+.rightside-container {
+    min-height: 100vh;
+}
+
+.twitter-container {
+    display: flex;
+}
+
+.medium-logo-container {
+    width: 50px;
+    height: 30px;
+}
+
+.medium-logo {
+    height: 80%;
+}
+
+.twitter-logo-container {
+    width: 70px;
+    height: 30px;
+}
+.fa-plus
+
+.twitter-l
