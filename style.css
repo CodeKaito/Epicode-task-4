@@ -307,10 +307,31 @@ main {
     min-width: 368px;
     border-left: 1px solid #F2F2F2;
     padding-right: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .rightside-container {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: sticky;
+}
+
+.connect-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect-container-underline {
+    border-bottom: 1px solid #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .twitter-container {
@@ -327,9 +348,128 @@ main {
 }
 
 .twitter-logo-container {
-    width: 70px;
+    margin-left: 10px;
+    width: 50px;
     height: 30px;
 }
-.fa-plus
 
-.twitter-l
+.twitter-logo {
+    height: 80%;
+}
+
+.title-twitter-container {
+    margin: 20px 0px;
+    text-align: center;
+    text-wrap: wrap;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button-twitter-container {
+    width: 300px;
+    padding: 8px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(36, 36, 36);
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.block {
+    width: 50px;
+    height: 30px;
+}
+
+.later-button {
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #6B6B6B;
+    margin-bottom: 30px;
+}
+
+.recommended-container {
+    margin-top: 40px;
+}
+
+.recommended-title-container > h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tags-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    display: flex;
+}
+
+.tags {
+    margin: 4px;
+    padding: 8px 16px;
+    border: 1px solid rgb(242,242,242);
+    border-radius: 100px;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.see-more-container {
+    width: 140px;
+}
+
+.see-more-container > p {
+    margin-top: 30px;
+    color: rgb(0, 190, 0);
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.follow-container {
+    margin-top: 40px;
+}
+
+.follow-container-title > h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user-follow-container {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-image-follow-container {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-information-name {
+    cursor: pointer;
+}
+
+.user-informations-follow-container {
+    align-content:flex-start;
+}
+
+.follow-button {
+    text-align: center;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 1px;
+    color: #232323;
+    font-size: 14px;
+    height: 30px;
+    width: 70px;
+    fill: rgb(36, 36, 36);
+    background-color: white;
+    cursor: pointer;
+}
