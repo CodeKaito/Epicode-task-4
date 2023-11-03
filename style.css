@@ -105,18 +105,21 @@ textarea:focus, input:focus{
 .homepage-container {
     max-width: 1336px;
     margin: auto;
-    display: flex;
+    display: block;
     height: 1000vh;
 }
 
 .homepage {
     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 main {
-    max-width: 680px;
-    margin: 0 24px;
+    min-width: 728px;
+    max-width: 728px;
     height: 100vh;
+    flex: 1 1 auto;
 }
 
 .space-topbar {
@@ -129,6 +132,7 @@ main {
     position: sticky;
     background-color: rgba(255, 255, 255, 1);
     justify-content: center;
+    margin: 0 24px;
     
 }
 
@@ -156,15 +160,6 @@ main {
     border-bottom: 1px solid rgb(36, 36, 36);
 }
 
-.main-rightside {
-    width: 368px;
-    height: 1000vh;
-    min-width: 368px;
-    border-left: 1px solid #F2F2F2;
-    padding-right: 24px;
-    background-color: rgba(255, 255, 255, 1);
-}
-
 .feed-container {
     padding-top: 50px;
 }
@@ -172,7 +167,87 @@ main {
 .article-container {
     margin-right: auto;
     margin-left: auto;
-    background-color: red;
     max-width: 680px;
     height: 400px;
 }
+
+.author-container {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.author-name {
+    margin-left: 8px;
+}
+
+.author-date {
+    display: flex;
+    color: #6B6B6B;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.dot {
+    margin: 0px 4px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.member {
+    margin-left: 5px;
+    color: #6B6B6B;
+    cursor: pointer;
+}
+
+.article {
+    display: flex;
+    margin-top: 12px;
+}
+
+.feed-title-container {
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.feed-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feed-description-container {
+    overflow: hidden;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+}
+
+.feed-description {
+    color: #242424;
+    max-height: 48px;
+}
+
+.image-feed-container {
+    margin-left: 60px;
+}
+
+.image-feed {
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.main-rightside {
+    width: 368px;
+    height: 1000vh;
+    min-width: 368px;
+    border-left: 1px solid #F2F2F2;
+    padding-right: 24px;
+}
+
