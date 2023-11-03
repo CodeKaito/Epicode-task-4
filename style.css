@@ -164,3 +164,15 @@ main {
     padding-right: 24px;
     background-color: rgba(255, 255, 255, 1);
 }
+
+.feed-container {
+    padding-top: 50px;
+}
+
+.article-container {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+    max-width: 680px;
+    height: 400px;
+}
