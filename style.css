@@ -231,12 +231,13 @@ main {
 }
 
 .feed-description {
-    text-overflow: ellipsis;
-    flex-wrap: wrap;
     overflow: hidden;
-    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Numero di righe desiderato */
+    -webkit-box-orient: vertical;
     color: #242424;
-    height: 60px;
+    height: 45px;
     width: 400px;
 }
 
