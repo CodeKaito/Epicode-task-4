@@ -225,15 +225,19 @@ main {
 }
 
 .feed-description-container {
-    overflow: hidden;
     font-size: 16px;
     color: #242424;
     font-weight: 400;
 }
 
 .feed-description {
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+    overflow: hidden;
+    white-space: nowrap;
     color: #242424;
-    max-height: 42px;
+    height: 60px;
+    width: 400px;
 }
 
 .image-feed-container {
