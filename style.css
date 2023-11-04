@@ -199,7 +199,6 @@ main {
 .dot {
     margin: 0px 4px;
     font-size: 14px;
-    line-height: 20px;
     margin-bottom: 7px;
 }
 
@@ -211,7 +210,7 @@ main {
 
 .article {
     display: flex;
-    padding-top: 24px;
+    padding-top: 10px;
     border-bottom: 1px solid #F2F2F2;
 }
 
@@ -234,7 +233,7 @@ main {
 
 .feed-description {
     color: #242424;
-    max-height: 48px;
+    max-height: 42px;
 }
 
 .image-feed-container {
@@ -503,6 +502,8 @@ main {
 }
 
 .recently-saved-card-bottom > p { 
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 
