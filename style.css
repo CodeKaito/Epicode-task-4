@@ -128,7 +128,7 @@ main {
 
 .topbar-container {
     top: 0;
-    z-index: 999;
+    z-index: 1;
     position: sticky;
     background-color: rgba(255, 255, 255, 1);
     justify-content: center;
@@ -360,7 +360,6 @@ main {
 .title-twitter-container {
     margin: 20px 0px;
     text-align: center;
-    text-wrap: wrap;
     font-weight: 400;
     font-size: 16px;
 }
