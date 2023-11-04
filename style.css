@@ -15,16 +15,13 @@ body {
 }
 
 .navbar-bottomline {
-    border-bottom: 1px solid #F2F2F2;
     box-shadow: 1px 3px 3px #e7e7e7;
 }
 
 .navbar {
-    
     height: 57px;
     display: flex;
-    padding: 0px 380px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -184,10 +181,12 @@ main {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .author-name {
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .author-date {
@@ -246,6 +245,7 @@ main {
     width: 112px;
     height: 112px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .tag-container {
