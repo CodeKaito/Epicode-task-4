@@ -31,11 +31,11 @@ body {
 }
 
 .logo-container {
-    height: 30px;
+    height: 40px;
 }
 
 .logo {
-    height: 80%;
+    height: 100%;
     cursor: pointer;
 }
 
@@ -312,13 +312,11 @@ main {
 }
 
 .rightside-container {
-    top: -1096px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding-left: 24px;
     padding-right: 24px;
-    position: sticky;
 }
 
 .connect-container {
