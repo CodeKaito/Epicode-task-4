@@ -16,10 +16,14 @@ body {
 
 .navbar-bottomline {
     box-shadow: 1px 3px 3px #e7e7e7;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
     height: 57px;
+    width: 1750px;
+    min-width: 1750px;
     display: flex;
     justify-content: space-around;
     align-items: center;
