@@ -320,6 +320,8 @@ main {
 }
 
 .rightside-container {
+    top: 0;
+    position: sticky;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
