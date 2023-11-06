@@ -320,7 +320,7 @@ main {
 }
 
 .rightside-container {
-    top: 0;
+    top: -550px;
     position: sticky;
     min-height: 100vh;
     display: flex;
